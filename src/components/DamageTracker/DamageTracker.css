@@ -1,0 +1,73 @@
+.damagelife {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.damagebutton {
+  padding: 0;
+  border: none;
+  background: none;
+  color: white;
+}
+
+#decrease:hover {
+  color: rgb(233, 0, 0);
+}
+#increase:hover {
+  color: rgb(179, 255, 0);
+}
+@media (max-width: 289px) and (min-width: 50px) {
+  #logo {
+    width: 15px;
+    height: 15px;
+  }
+  .damagebutton {
+    font-size: 10px;
+  }
+  .damagelife {
+    font-size: 10px;
+
+    gap: 10px;
+  }
+  .lifechange {
+    font-size: 10px;
+    width: 15px;
+  }
+}
+@media (max-width: 414px) and (min-width: 290px) {
+  #logo {
+    width: 25px;
+    height: 25px;
+  }
+  .damagebutton {
+    font-size: 20px;
+  }
+  .damagelife {
+    font-size: 20px;
+
+    gap: 15px;
+  }
+  .lifechange {
+    font-size: 20px;
+    width: 30px;
+  }
+}
+@media (min-width: 415px) {
+  #logo {
+    width: 50px;
+    height: 50px;
+  }
+  .damagebutton {
+    font-size: 40px;
+  }
+  .damagelife {
+    font-size: 40px;
+
+    gap: 20px;
+  }
+  .lifechange {
+    font-size: 40px;
+    width: 60px;
+  }
+}

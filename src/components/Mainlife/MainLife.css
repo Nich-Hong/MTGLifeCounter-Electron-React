@@ -1,0 +1,58 @@
+.lifebuttons {
+  padding: 0;
+  border: none;
+  background: none;
+  color: white;
+}
+#decrease:hover {
+  color: red;
+}
+#increase:hover {
+  color: rgb(179, 255, 0);
+}
+
+#mainlifebody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 289px) and (min-width: 50px) {
+  .lifebuttons {
+    font-size: 10px;
+  }
+  #mainlifebody {
+    font-size: 40px;
+    gap: 10px;
+  }
+  .mainlifechange {
+    font-size: 40px;
+    width: 60px;
+  }
+}
+@media (max-width: 414px) and (min-width: 290px) {
+  .lifebuttons {
+    font-size: 20px;
+  }
+  #mainlifebody {
+    font-size: 80px;
+    gap: 20px;
+  }
+  .mainlifechange {
+    font-size: 80px;
+    width: 100px;
+  }
+}
+@media (min-width: 415px) {
+  .lifebuttons {
+    font-size: 40px;
+  }
+  #mainlifebody {
+    font-size: 120px;
+    gap: 20px;
+  }
+  .mainlifechange {
+    font-size: 120px;
+    width: 200px;
+  }
+}

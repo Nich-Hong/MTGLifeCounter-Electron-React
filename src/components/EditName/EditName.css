@@ -1,0 +1,25 @@
+#namechange {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: Roboto;
+}
+@media (max-width: 289px) and (min-width: 50px) {
+  #namechange {
+    font-size: 10px;
+    width: 40px;
+  }
+}
+@media (max-width: 414px) and (min-width: 290px) {
+  #namechange {
+    font-size: 20px;
+    width: 70px;
+  }
+}
+@media (min-width: 415px) {
+  #namechange {
+    font-size: 40px;
+    width: 180px;
+  }
+}

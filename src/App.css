@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(49, 48, 48);
+  color: white;
+  font-family: Roboto;
+}
+#appbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+#extradamage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+}

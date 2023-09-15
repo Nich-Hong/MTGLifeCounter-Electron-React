@@ -1,0 +1,14 @@
+#lifechange {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: Roboto;
+}
+
+/* makes the number input type scroll disappear */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
